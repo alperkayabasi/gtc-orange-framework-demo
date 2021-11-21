@@ -1,0 +1,11 @@
+framework module GtcOrangeSDK {
+  umbrella header "GtcOrangeSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module GtcOrangeSDK.Swift {
+    header "GtcOrangeSDK-Swift.h"
+    requires objc
+}
